@@ -7,7 +7,7 @@
 Start		
 		LDI R1, KBSR ;R1 gets xFE00
 		BRZP Start
-		LDI R0, KBDR :R0 gets xFE02
+		LDI R0, KBDR ;R0 gets xFE02
 Check_A	
 		LD R1, CheckA
 		NOT R1, R1
