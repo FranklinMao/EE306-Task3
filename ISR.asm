@@ -1,13 +1,13 @@
 ; ISR.asm
-; Name:
+; Name: Vignesh Krishnamurthy and Franklin Mao
 ; UTEid: 
 ; Keyboard ISR runs when a key is struck
 ; Checks for a valid RNA symbol and places it at x4600
                .ORIG x2600
 Start		
-		LDI R1, KBSR
+		LDI R1, KBSR ;R1 gets xFE00
 		BRZP Start
-		LDI R0, KBDR
+		LDI R0, KBDR ;R0 gets xFE02
 Check_A	
 		LD R1, CheckA
 		NOT R1, R1

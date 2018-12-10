@@ -1,5 +1,5 @@
 ; Main.asm
-; Name:
+; Name: Franklin Mao and Vignesh Krishnamurphy
 ; UTEid: 
 ; Continuously reads from x4600 making sure its not reading duplicate
 ; symbols. Processes the symbol based on the program description
@@ -177,7 +177,7 @@ Compliment_C .FILL x-43
 Pipe	.FILL x7C
 
 Check2600 .FILL	x2600
-
+;test comment
 		
 
 		.END
