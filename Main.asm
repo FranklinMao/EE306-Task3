@@ -1,5 +1,5 @@
 ; Main.asm
-; Name: Franklin Mao and Vignesh Krishnamurphy
+; Name: Franklin Mao and Vignesh Krishnamurthy
 ; UTEid: 
 ; Continuously reads from x4600 making sure its not reading duplicate
 ; symbols. Processes the symbol based on the program description
@@ -78,7 +78,7 @@ STATE_AUG
 	BRZ STATE_A
 	BRNZP loop
 	
-PasteBar
+PasteBar			; pastes pipe after start codon
 	LD R0, Pipe
 	TRAP X21
 	BRNZP State_U
