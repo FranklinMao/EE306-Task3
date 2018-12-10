@@ -1,5 +1,5 @@
 ; ISR.asm
-; Name:
+; Name: Vignesh Krishnamurthy and Franklin Mao
 ; UTEid: 
 ; Keyboard ISR runs when a key is struck
 ; Checks for a valid RNA symbol and places it at x4600
