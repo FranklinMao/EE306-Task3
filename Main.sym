@@ -1,0 +1,28 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	Ascii_A                 406E
+//	Ascii_C                 4071
+//	Ascii_G                 4070
+//	Ascii_U                 406F
+//	Check2600               4077
+//	Compliment_A            4072
+//	Compliment_C            4075
+//	Compliment_G            4074
+//	Compliment_U            4073
+//	END                     4068
+//	Get4600                 406D
+//	KBIEN                   406A
+//	KBIVE                   406C
+//	KBSR                    406B
+//	PasteBar                402F
+//	Pipe                    4076
+//	STATE_A                 400C
+//	STATE_AU                4011
+//	STATE_AUG               4020
+//	Stack                   4069
+//	State_U                 4032
+//	State_UA                403E
+//	State_UAG               404D
+//	State_UGA               405C
+//	loop                    4005
+//	start                   4001
